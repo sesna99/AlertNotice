@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/notice"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/noti_icon"
+        android:title="알림" />
+    <item
+        android:id="@+id/community"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/comunity_icon"
+        android:title="커뮤니티" />
+    <item
+        android:id="@+id/setting"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/setting_icon"
+        android:title="설정" />
+</menu>
